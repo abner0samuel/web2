@@ -414,26 +414,38 @@ const product =[
 ]
 document.addEventListener("DOMContentLoaded", startapp());
 function startapp(){
-    menu()
+    menu();
+    cart();
 }
 function menu(){
     let menu_button = document.querySelector(".menu_button");
     let nav = document.querySelector(".mainContainer>.header > .header2 > .header3");
     let cance_btn = document.querySelector(".mainContainer>.header > .header2 > .header3 > .cance > button");
+    let seconds = 0
     menu_button.addEventListener("click",()=>{
         if(nav.style.display = "none" ){
             nav.style.display = "flex"
             nav.setAttribute("id","anima")
+            nav.style.animation ="trans 3s linear "
         }
     })
     cance_btn.addEventListener("click",()=>{
-        nav.style.display = "none"
+        nav.style.animation =" trans22 3s linear forwards"
     })
 
 }
-for(row1 in product){
-    // console.log(row1);
-    for(row2 in row1){
-        console.log(row2);
-    }
+
+function cart(){
+    let nav = document.querySelector(".mainContainer>.header > .header2 > .header3");
+    let cart_body = document.querySelector(".header > .header2 > .header3 > .header5 img");
+    let delet_btn = document.querySelector(".cart_home > .cart_header > div > svg");
+    let main_body = document.querySelector(".cart_home ")
+    cart_body.addEventListener("click",()=>{
+        main_body.style.display = "flex"
+        nav.style.animation =" trans22 3s linear forwards"
+    })
+    delet_btn.addEventListener("click",()=>{
+        main_body.style.display = "none"
+        
+    })
 }
