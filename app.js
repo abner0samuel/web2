@@ -1,7 +1,7 @@
 const product =[
     {
         img1: 'freeyond-m5a-8gb-256gb.webp',
-        name: 'freeyond M5a 8GB+256GB',
+        name: 'freeyond M5a',
         li1: '₦140,600.00',
         li2: 'Availability: In Stock',
         li3: 'Freeyond M5a Key Features',
@@ -15,7 +15,7 @@ const product =[
     },
     {
         img1:'apple-iphone-15-plus-6gb-256gb-5g.jpg',
-        name:'Apple iPhone 15 Plus 6GB+256GB 5G ',
+        name:'Apple iPhone 15 Plus',
         li1:'Availability: In Stock',
         li2:'SKU: 302442',
         li3: 'Apple iPhone 15 Plus Features', 
@@ -29,7 +29,7 @@ const product =[
     },
     {
         img1: 'honor-x8a-8gb-128gb.jpg',
-        name: 'Honor X8a 8GB+128GB',
+        name: 'Honor X8a',
         li1: '₦246,800.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 302100',
@@ -43,7 +43,7 @@ const product =[
     },
     {
         img1: 'infinix-note-12-pro-5g-x671b-128gb-8gb.png',
-        name: 'INFINIX NOTE 12 PRO 5G X671B 128GB+8GB',
+        name: 'INFINIX NOTE 12 PRO',
         li1: '₦197,400.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 90007',
@@ -59,7 +59,7 @@ const product =[
     },
     {
         img1: 'infinix-smart-8-64gb-4gb-4g (1).webp',
-        name: 'Infinix Smart 8 64GB+4GB 4G Infinix Smart 8 64GB+4GB 4G',
+        name: 'Infinix Smart 8',
         li1: 'Infinix Smart 8 64GB+4GB 4G',
         li2: '₦86,200.00',
         li3: 'Availability: In Stock',
@@ -76,7 +76,7 @@ const product =[
     },
     {
         img1: 'shopping (1).webp',
-        name: 'Apple iPhone 15 Pro 128GB Single Sim',
+        name: 'Apple iPhone 11 Pro',
         li1: '₦1,670,000.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 302423',
@@ -112,7 +112,7 @@ const product =[
     }, 
     {
         img1: 'shopping.webp',
-        name: 'ITEL S23 4GB+128GB',
+        name: 'ITEL S23',
         li1: '₦80,400.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 302109',
@@ -130,7 +130,7 @@ const product =[
     },
     {
         img1: 'download (1).webp',
-        name: 'ITEL A60 2GB+32GB',
+        name: 'ITEL A60',
         li1: '₦55,000.00',
         li2: 'Availability: Out Of Stock',
         li3: 'SKU: 301812',
@@ -143,7 +143,7 @@ const product =[
     },
     {
         img1: 'nokia-c21-2gb-32gb.png',
-        name: 'Nokia C21 2GB+32GB',
+        name: 'Nokia C21',
         li1: '₦88,300.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 61203',
@@ -165,7 +165,7 @@ const product =[
     },
     {
         img1: 'oppo-a58-8gb-128gb.jpg',
-        name: 'Oppo A58 8GB+128GB',
+        name: 'Oppo A58',
         li1: '₦164,900.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 302339',
@@ -180,7 +180,7 @@ const product =[
     },
     {
         img1: '20pro_predawn_black_1.png',
-        name: 'tecno-camon-19-pro-8gb-256gb-ci7n-5g',
+        name: 'tecno camon 19 pro',
         li1: '₦246,800.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 302100',
@@ -195,7 +195,7 @@ const product =[
     },
     {
         img1: 'tecno-camon-19-pro-8gb-256gb-ci7n-5g.jpg',
-        name: 'TECNO CAMON 19 PRO 8GB+256GB (CI7n) 5G',
+        name: 'TECNO CAMON 19 PRO 5G',
         li1: '₦212,800.00₦252,800.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 11343',
@@ -216,7 +216,7 @@ const product =[
     },
     {
         img1: 'xiaomi-poco-m4-pro-6gb-128gb.jpg',
-        name: 'XIAOMI POCO M4 PRO 6GB+128GB',
+        name: 'XIAOMI POCO M4 PRO',
         li1: '₦140,000.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 88528',
@@ -230,7 +230,7 @@ const product =[
     },
     {
         img1: 'th (9).jpg',
-        name: 'Samsung Galaxy S22 5G 8GB+128GB',
+        name: 'Samsung Galaxy S22',
         li1: '₦607,000.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 300819',
@@ -248,7 +248,7 @@ const product =[
     },
     {
         img1: 'th (4).jpg',
-        name: 'Samsung Galaxy A13 4GB+128GB',
+        name: 'Samsung Galaxy A13',
         li1: '₦133,900.00',
         li2: 'Availability: In Of Stock',
         li3: 'SKU: 300911',
@@ -262,7 +262,7 @@ const product =[
     },
     {
         img1: 'th (3).jpg',
-        name: 'samsung Galaxy A54 8GB+128GB 5G',
+        name: 'samsung Galaxy A54',
         li1: '₦509,000.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 301905',
@@ -276,7 +276,7 @@ const product =[
     },
     {
         img1: 'samsung-galaxy-s23-ultra-12gb-512gb-1-year-warranty.webp',
-        name: 'SAMSUNG GALAXY S23 ULTRA 12GB+512GB',
+        name: 'SAMSUNG GALAXY S23 ULTRA',
         li1: '₦990,000.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 301755-1',
@@ -291,7 +291,7 @@ const product =[
     },
     {
         img1: 'samsung-galaxy-z-flip-5-512gb.webp',
-        name: 'Samsung_Galaxy_Z Flip 5 512GB',
+        name: 'Samsung_Galaxy_Z Flip 5',
         li1: '₦1,367,000.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 3022351',
@@ -306,7 +306,7 @@ const product =[
     },
     {
         img1: 'samsung-galaxy-z-fold-5-1tb.webp',
-        name: 'Samsung Galaxy Z Fold 5 1TB',
+        name: 'Samsung Galaxy Z Fold',
         li1: '₦2,519,000.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 302244',
@@ -321,7 +321,7 @@ const product =[
     },
     {
         img1: 'download (6).webp',
-        name: 'TECNO SPARK 10C (KI5K) 128GB+4GB',
+        name: 'TECNO SPARK 10C',
         li1: 'price ₦94,900.00',
         li2: 'Availability: In Stock',
         li2: 'SKU: 301829',
@@ -331,7 +331,7 @@ const product =[
     },
     {
         img1: 'vivo-v27-5g-8gb-256gb.jpg',
-        name: 'Vivo_V27 5G 8GB+256GB',
+        name: 'Vivo_V27 5G',
         li1: '₦359,900.00',
         li2: 'Availability: In Stock',
         li3: 'SKU:302012',
@@ -346,7 +346,7 @@ const product =[
     },
     {
         img1: 'vivo-y16-4gb-64gb.jpg',
-        name: 'VIVO Y16 4GB+64GB',
+        name: 'VIVO Y16',
         li1: '₦114,000.00',
         li2: 'Availability: In Stock',
         li3: 'SKU:301569',
@@ -358,8 +358,8 @@ const product =[
 
     },
     {
-        img1: '118566_1689599261.webp',
-        name: 'XIAOMI REDMI NOTE 12 PRO (6GB+128GB)',
+        img1: 'download (1).webp',
+        name: 'XIAOMI REDMI NOTE 12 PRO',
         li1: '₦217,800.00₦262,800.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 301974',
@@ -376,7 +376,7 @@ const product =[
     },
     {
         img1: 'download (5).webp',
-        name: 'Home XIAOMI REDMI 12C 4GB+128GB',
+        name: 'Home XIAOMI REDMI 12C',
         li1: '₦95,300.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 301813',
@@ -393,7 +393,7 @@ const product =[
     },
     {
         img1: 'download (2).webp',
-        name: 'XIAOMI REDMI A2 PLUS 3GB+64GB',
+        name: 'XIAOMI REDMI A2 PLUS ',
         li1: '₦68,800.00₦76,800.00',
         li2: 'Availability: In Stock',
         li3: 'SKU: 302200',
@@ -410,12 +410,122 @@ const product =[
             life`,
         img2: 'download (2).webp'
 
-    }   
+    }  ,
+    {
+        img1:'20pro_predawn_black_1.png' , 
+        name:'TECNO CAMON 19 PRO'
+    },
+    {
+        img1: 'Pixel-7A-Coral-Google-IO-2023-Gear.webp',
+        name: 'goine'
+    },
+    {
+        img1: 'download (2).webp',
+        name: 'XIAOMI REDMI A2 PLUS',
+        li1: '₦68,800.00₦76,800.00',
+        li2: 'Availability: In Stock',
+        li3: 'SKU: 302200',
+        li4:' A2 Plus Keyword',
+        p:`Technical specifications: Snapdragon 660, 6.52 inches display, 3GB RAM, 64GB internal storage, dual 8MP rear
+            cameras, 5
+            MP front camera, fingerprint scanner, and 5000 mAh battery are all technical specifications of the Xiaomi
+            Redmi A2
+            Plus.
+            Operating system: The Xiaomi Redmi A2 Plus runs on Android 12 (Go edition) operating system.
+            Brand: Xiaomi is the brand of the Xiaomi Redmi A2 Plus.
+            Camera features: The Xiaomi Redmi A2 Plus has dual 8 MP rear cameras and a 5 MP front camera.
+            Battery life: The Xiaomi Redmi A2 Plus has a 5000 mAh battery, which is a feature related to its battery
+            life`,
+    },
+    {
+        img1: 'download (3).webp',
+        name: 'Redmi 12'
+    },
+    {
+        img1: 'download (4).webp',
+        name: 'TECNO SPARK 4C'
+    },
+    {
+        img1:'download (6).webp',
+        name: 'TECNO SPARK 10'
+    },
+    {
+        img1: 'th (9).jpg',
+        name: 'Samsung Galaxy S22'
+    },
+    {
+        img1: 'shopping (1).webp',
+        name: 'Apple iPhone 13 Pro ',
+        li1:'Availability: In Stock',
+        li2:'SKU: 302442',
+        li3: 'Apple iPhone 15 Plus Features', 
+        li4: 'Network: 5G',
+        li5: 'Display: 6.7-Inch',
+        li6:'Camera: 48MP',
+        li7: 'Battery: 3274 mAh',
+        img2: 'apple-iphone-15-plus-6gb-256gb-5g.jpg'
+    
+    },
+    {
+        img1: 'shopping (2).webp',
+        name: 'teano y11'
+    },
+    {
+        img1: 'shopping.webp',
+        name: ''
+    },
+    {
+        img1: 'th (8).jpg',
+        name: ''
+    },
+    {
+        img1: 'th (7).jpg',
+        name: 'sunsong'
+    },
+    {
+        img1: 'th (6).jpg',
+        name: 'Samsung Galaxy s9'
+    },
+    {
+        img1: 'th (5).jpg',
+        name: 'Samsung A13'
+    },
+    {
+        img1:'th (4).jpg',
+        name: 'Samsung A14'
+    },
+    {
+        img1: 'th (3).jpg',
+        name: 'samsung Galaxy A54 ',
+        li1: '₦509,000.00',
+        li2: 'Availability: In Stock',
+        li3: 'SKU: 301905',
+        li4: 'Samsung A54 Summary',
+        li5: 'Sim: Single SIM<',
+        li6: 'Network: 5g',
+        li7: 'Display: 6.4  inches',
+        li8: 'Battery: Li-Po 5000 mAh',
+        img2:'th (3).jpg'
+
+    },
+    {
+        img1: 'th (2).jpg',
+        name: 'Samsung Galaxy s5'
+    },
+    {
+        img1: 'th (1).jpg',
+        name:'teano'
+    }
+
 ]
-document.addEventListener("DOMContentLoaded", startapp());
+document.addEventListener("DOMContentLoaded", startapp()); 
 function startapp(){
     menu();
     cart();
+    addNumberToCart();
+    fetchPhoto();
+    creatCart();
+    searchMenu();
 }
 function menu(){
     let menu_button = document.querySelector(".menu_button");
@@ -432,20 +542,190 @@ function menu(){
     cance_btn.addEventListener("click",()=>{
         nav.style.animation =" trans22 3s linear forwards"
     })
-
 }
 
 function cart(){
     let nav = document.querySelector(".mainContainer>.header > .header2 > .header3");
     let cart_body = document.querySelector(".header > .header2 > .header3 > .header5 img");
-    let delet_btn = document.querySelector(".cart_home > .cart_header > div > svg");
+    let delet_btn = document.querySelector(".cart_root > .cart_header > div > svg");
     let main_body = document.querySelector(".cart_home ")
+    let cartRoot = document.querySelector(".cart_root");
     cart_body.addEventListener("click",()=>{
         main_body.style.display = "flex"
+        cartRoot.style.display = "block"
         nav.style.animation =" trans22 3s linear forwards"
     })
     delet_btn.addEventListener("click",()=>{
+        cartRoot.style.display = "none"
         main_body.style.display = "none"
+    })
+}
+
+function  addNumberToCart() {
+    
+    let cances = document.querySelectorAll(".cart_root > .cart_home > .cart_body > .inner > svg ").forEach(cance=>{
+        cance.addEventListener("click",()=>{
+                body.innerHTML.length - 1 
+            })
+    })
+    let numbers = 0
+    let adds = document.querySelectorAll(".cart_root > .cart_home > .cart_body > .num > .positive").forEach(add=>{
+        add.addEventListener("click",()=>{
+            let prices = document.querySelectorAll(".cart_root > .cart_home > .cart_body > .inner > .text > .price ").forEach(price=>{
+                let productNumers = document.querySelectorAll(".cart_root > .cart_home > .cart_body > .num > .number").forEach(productNumer=>{
+                    numbers++
+                    productNumer.innerText = numbers
+                    prices.innerText = "N " +  150 * numbers + ",000.00"
+                })
+            })
+   
+         })
+    })
+    let substrutions= document.querySelectorAll(".cart_root > .cart_home > .cart_body > .num > .negetive").forEach(substrution=>{
+        substrution.addEventListener("click",()=>{
+            let prices = document.querySelectorAll(".cart_root > .cart_home > .cart_body > .inner > .text > .price ").forEach(price=>{
+                let productNumers = document.querySelectorAll(".cart_root > .cart_home > .cart_body > .num > .number").forEach(productNumer=>{
+                    numbers--
+            if(numbers <= 0){
+                numbers= 0
+                prices.innerText = "N " +  150 * ",000.00"
+            }
+            productNumer.innerText = numbers
+            prices.innerText = "N " +  150 * numbers + ",000.00"
+                })
+            })
+         })
+    })
+}
+function fetchPhoto() {
+    let thumbnall = document.querySelector(".thumbnail");
+   for(let number = 0; number< product.length; number++){
+    thumbnall.innerHTML =  thumbnall.innerHTML + `<div class="item"  id="${number}" >
+    <img src="${ product[number].img1}" img alt="${product[number].name}">
+    <div class="content" content>
+        <hr>
+        <hr class="left">
+        <div class="title" name>${product[number].name}</div>
+        <input type="button" class="btns" value="add">
+    </div>
+ </div>`
+   }
+}
+function creatCart() {
+    let cartnumer = document.querySelector(".body > .mainContainer > .header > .header2 > .header3 > .header5 > .num_cart");
+ 
+    let cartnumervalue =0
+    console.log(cartnumer);
+
+    cartnumer.innerHTML = cartnumervalue
+    let item = document.querySelector(".cart_root > .cart_home");
+    let btns = document.querySelectorAll(".thumbnail > .item > .content > input").forEach(btn=>{
+        btn.addEventListener("click",()=>{
+            cartnumervalue +=1
+            cartnumer.innerHTML = cartnumervalue
+            btn.style.backgroundColor = "green"
+            btn.innerText = "cance"
+            for(let number = 0; number< product.length; number++){
+                if(btn.parentElement.parentElement.id == number){
+                    item.innerHTML = item.innerHTML +  `<div class="cart_body">
+            <div class="inner">
+                <img src="${ product[number].img1}" alt="redmi 12">
+                <p class="text"><span>${product[number].name}</span>
+                    <span>${product[number].li1}</span> <span class="price">${product[number].li2}</span>
+                </p>
+                <svg width="14" height="16" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                        <path
+                            d="M0 2.625V1.75C0 1.334.334 1 .75 1h3.5l.294-.584A.741.741 0 0 1 5.213 0h3.571a.75.75 0 0 1 .672.416L9.75 1h3.5c.416 0 .75.334.75.75v.875a.376.376 0 0 1-.375.375H.375A.376.376 0 0 1 0 2.625Zm13 1.75V14.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 1 14.5V4.375C1 4.169 1.169 4 1.375 4h11.25c.206 0 .375.169.375.375ZM4.5 6.5c0-.275-.225-.5-.5-.5s-.5.225-.5.5v7c0 .275.225.5.5.5s.5-.225.5-.5v-7Zm3 0c0-.275-.225-.5-.5-.5s-.5.225-.5.5v7c0 .275.225.5.5.5s.5-.225.5-.5v-7Zm3 0c0-.275-.225-.5-.5-.5s-.5.225-.5.5v7c0 .275.225.5.5.5s.5-.225.5-.5v-7Z"
+                            id="a" />
+                    </defs>
+                    <use fill="#C3CAD9" fill-rule="nonzero" xlink:href="#a" />
+                </svg>
+            </div>
+            <div class="num">
+                <div class="negetive">-</div>
+                <div class="number">0</div>
+                <div class="positive">+</div>
+            </div>
+        </div>` 
+                }
+            }
+        })
+    })
+}
+
+
+
+function searchMenu() {
+    let searchValue = document.querySelector(".body > .mainContainer > .header > .header1 > input");
+    let inputbtn = document.querySelector(".body > .mainContainer > .header > .header1 > svg");
+    searchValue.addEventListener("keyup",()=>{
+        for(let number = 0; number< product.length; number++){
+            let items = document.querySelectorAll(".thumbnail > .item").forEach(item=>{
+                for(var i =0; i<product[number].name.length; i++){
+                    if(product[number].name.toUpperCase().indexOf(searchValue) > -1){
+                        // product[number].style.display =" "
+                        console.log("remove");
+                    }else{
+                        // product[number].style.display ="none"
+                        console.log("working");
+                    }
+                }
+            })
+        }
+    })
+    inputbtn.addEventListener("click",()=>{
+          console.log(searchValue.value.toUpperCase());
+
+
+          let thumbnall = document.querySelector(".thumbnail");
+          for(let number = 0; number< product.length; number++){
+    
+            
+          }
         
+        for(let number = 0; number< product.length; number++){
+            // if(product[number].name.toString().toUpperCase() == searchValue.value.toUpperCase() ){
+            //     console.log("true");
+            //     thumbnall.innerHTML = `<div class="item"  id="${number}" >
+            //     <img src=${ product[number].img1} img alt="${product[number].name}">
+            //     <div class="content" content>
+            //         <hr>
+            //         <hr class="left">
+            //         <div class="title" name>${product[number].name}</div>
+            //         <input type="button" class="btns" value="+">
+            //     </div>
+            //  </div>`
+            // }else{
+            //     console.log("false");
+            // } 
+            let items = document.querySelectorAll(".thumbnail > .item").forEach(item=>{
+                for(var i =0; i<product[number].name.length; i++){
+                    if(product[number].name.toString().toUpperCase().indexOf(searchValue) > -1){
+                        // product[number].style.display =" "
+                        console.log("remove");
+                    }else{
+                        // product[number].style.display ="none"
+                        console.log("working");
+                    }
+                }
+            })
+            if (product[number].name.toString().toUpperCase().includes(searchValue.value.toUpperCase())){
+                console.log("true2");
+
+            //     console.log( product[number].img1);
+            //     console.log(product[number].name);
+            //     thumbnall.innerHTML = `<div class="item"  id="${number}" >
+            //     <img src=${ product[number].img1} img alt="${product[number].name}">
+            //     <div class="content" content>
+            //         <hr>
+            //         <hr class="left">
+            //         <div class="title" name>${product[number].name}</div>
+            //         <input type="button" class="btns" value="+">
+            //     </div>
+            //  </div>`
+            }
+        }
     })
 }
