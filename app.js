@@ -1,4 +1,4 @@
-const product =[
+const products=[
     {
         img1: 'freeyond-m5a-8gb-256gb.webp',
         name: 'freeyond M5a',
@@ -525,7 +525,6 @@ function startapp(){
     addNumberToCart();
     fetchPhoto();
     creatCart();
-    searchMenu();
 }
 function menu(){
     let menu_button = document.querySelector(".menu_button");
@@ -599,13 +598,13 @@ function  addNumberToCart() {
 }
 function fetchPhoto() {
     let thumbnall = document.querySelector(".thumbnail");
-   for(let number = 0; number< product.length; number++){
+   for(let number = 0; number< products.length; number++){
     thumbnall.innerHTML =  thumbnall.innerHTML + `<div class="item"  id="${number}" >
-    <img src="${ product[number].img1}" img alt="${product[number].name}">
+    <img src="${ products[number].img1}" img alt="${products[number].name}">
     <div class="content" content>
         <hr>
         <hr class="left">
-        <div class="title" name>${product[number].name}</div>
+        <div class="title" name>${products[number].name}</div>
         <input type="button" class="btns" value="add">
     </div>
  </div>`
@@ -613,10 +612,7 @@ function fetchPhoto() {
 }
 function creatCart() {
     let cartnumer = document.querySelector(".body > .mainContainer > .header > .header2 > .header3 > .header5 > .num_cart");
- 
     let cartnumervalue =0
-    console.log(cartnumer);
-
     cartnumer.innerHTML = cartnumervalue
     let item = document.querySelector(".cart_root > .cart_home");
     let btns = document.querySelectorAll(".thumbnail > .item > .content > input").forEach(btn=>{
@@ -625,13 +621,13 @@ function creatCart() {
             cartnumer.innerHTML = cartnumervalue
             btn.style.backgroundColor = "green"
             btn.innerText = "cance"
-            for(let number = 0; number< product.length; number++){
+            for(let number = 0; number< products.length; number++){
                 if(btn.parentElement.parentElement.id == number){
                     item.innerHTML = item.innerHTML +  `<div class="cart_body">
             <div class="inner">
-                <img src="${ product[number].img1}" alt="redmi 12">
-                <p class="text"><span>${product[number].name}</span>
-                    <span>${product[number].li1}</span> <span class="price">${product[number].li2}</span>
+            <img src="${ products[number].img1}" img alt="${products[number].name}">
+                <p class="text"><span>${products[number].name}</span>
+                    <span>${products[number].li1}</span> <span class="price">${products[number].li2}</span>
                 </p>
                 <svg width="14" height="16" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -657,75 +653,44 @@ function creatCart() {
 
 
 
-function searchMenu() {
-    let searchValue = document.querySelector(".body > .mainContainer > .header > .header1 > input");
-    let inputbtn = document.querySelector(".body > .mainContainer > .header > .header1 > svg");
-    searchValue.addEventListener("keyup",()=>{
-        for(let number = 0; number< product.length; number++){
-            let items = document.querySelectorAll(".thumbnail > .item").forEach(item=>{
-                for(var i =0; i<product[number].name.length; i++){
-                    if(product[number].name.toUpperCase().indexOf(searchValue) > -1){
-                        // product[number].style.display =" "
-                        console.log("remove");
-                    }else{
-                        // product[number].style.display ="none"
-                        console.log("working");
-                    }
-                }
-            })
-        }
-    })
-    inputbtn.addEventListener("click",()=>{
-          console.log(searchValue.value.toUpperCase());
+function searchProducts() {
+    const input = document.getElementById('searchInput').value.toLowerCase();
+    const productList = document.getElementById('productList');
+    productList.innerHTML = '';
+    let thumbnall = document.querySelector(".thumbnail");
+    thumbnall.innerHTML = ""
+
+    const filteredProducts = products.filter(product => 
+        product.name.toLowerCase().includes(input)
+    );
+    filteredProducts.forEach(product => {
+        const productDiv = document.createElement('div');
+        productDiv.classList.add('item');
+        const content = document.createElement("div")
+        content.classList.add("content")
+        const img = document.createElement('img');
+        img.src = product.img1;
+        // img.alt = product.name;
+        const name = document.createElement('h2');
+        const hr1 = document.createElement("hr");
+        const hr2 = document.createElement("hr");
+        const btn = document.createElement("button");
+        btn.innerHTML = 'add'
+        btn.classList.add("btns");
+        name.classList.add("title")
+        name.textContent = product.name;
+        productDiv.appendChild(img);
+        productDiv.appendChild(content);
+        hr2.classList.add("left");
+        content.appendChild(hr1);
+        content.appendChild(hr2);
+        content.appendChild(name);
+        content.appendChild(btn);
+       
+        console.log(img);
 
 
-          let thumbnall = document.querySelector(".thumbnail");
-          for(let number = 0; number< product.length; number++){
-    
-            
-          }
-        
-        for(let number = 0; number< product.length; number++){
-            // if(product[number].name.toString().toUpperCase() == searchValue.value.toUpperCase() ){
-            //     console.log("true");
-            //     thumbnall.innerHTML = `<div class="item"  id="${number}" >
-            //     <img src=${ product[number].img1} img alt="${product[number].name}">
-            //     <div class="content" content>
-            //         <hr>
-            //         <hr class="left">
-            //         <div class="title" name>${product[number].name}</div>
-            //         <input type="button" class="btns" value="+">
-            //     </div>
-            //  </div>`
-            // }else{
-            //     console.log("false");
-            // } 
-            let items = document.querySelectorAll(".thumbnail > .item").forEach(item=>{
-                for(var i =0; i<product[number].name.length; i++){
-                    if(product[number].name.toString().toUpperCase().indexOf(searchValue) > -1){
-                        // product[number].style.display =" "
-                        console.log("remove");
-                    }else{
-                        // product[number].style.display ="none"
-                        console.log("working");
-                    }
-                }
-            })
-            if (product[number].name.toString().toUpperCase().includes(searchValue.value.toUpperCase())){
-                console.log("true2");
 
-            //     console.log( product[number].img1);
-            //     console.log(product[number].name);
-            //     thumbnall.innerHTML = `<div class="item"  id="${number}" >
-            //     <img src=${ product[number].img1} img alt="${product[number].name}">
-            //     <div class="content" content>
-            //         <hr>
-            //         <hr class="left">
-            //         <div class="title" name>${product[number].name}</div>
-            //         <input type="button" class="btns" value="+">
-            //     </div>
-            //  </div>`
-            }
-        }
-    })
+        productList.appendChild(productDiv);
+    });
 }
